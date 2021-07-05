@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<form action="RegisterServlet">
+Enter name : <input type="text" name="empName" required><br/>
+<br/>
+Enter salary : <input type="text" name="salary" required><br/>
+<br/>
+Enter login id : <input type="text" name="loginId" required><br/>
+<br/>
+Enter password : <input type="password" name="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><br/>
+<br/>
+<input type="submit" value="Register">
+</form>
+</body>
+</html>
